@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter&display=swap');
 
+/*  Basic Styling */
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +11,16 @@ body {
     font-size: 100%;
     min-height: 100vh;
     background-color: #FCDAB8;
+}
+
+/* Right Side Itmes */
+img { /*Temporary Size */
+    width: 6.25em;
+    height: 6.25em;
+}
+
+.plant_side {
+    background-color: #FFC15C;
+    width: 30%;
+    height: auto;
 }
