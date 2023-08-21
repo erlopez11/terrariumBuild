@@ -10,17 +10,73 @@
 body {
     font-size: 100%;
     min-height: 100vh;
-    background-color: #FCDAB8;
+    background-color: #6C776B;
 }
 
 /* Right Side Itmes */
 img { /*Temporary Size */
-    width: 6.25em;
-    height: 6.25em;
+    width: 9.5em;
+    height: 9.5em;
+}
+
+.content {
+    display: flex;
 }
 
 .plant_side {
     background-color: #FFC15C;
-    width: 30%;
+    width: 45%;
+    height: 100vh;
+    padding: 1.25em;
+}
+
+.plants_group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+
+.title {
+    font-size: 2.5em;
+    color: #6C776B;
+    font-family: 'Courgette', sans-serif;
+    text-align: center;
+    margin-top: 0.25em;
+    margin-bottom: 15px;
+    border: 0.05em solid #6C776B;
+    width: 95%;
+    padding-top: 0.05em;
+    padding-bottom: 0.25em;
+}
+
+.tacks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.circle {
+    background-color: #6C776B;
+    width: 1.25em;
+    height: 1.25em;
+    border-radius: 50%;
+    margin-top: -0.625em;
+    margin-right: -0.625em;
+    margin-left: -0.625em;
+}
+
+/* Jar Side */
+
+.jar_side {
+    background-color: #FCDAB8;
+    width: 55%;
     height: auto;
 }
