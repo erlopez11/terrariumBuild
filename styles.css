@@ -79,4 +79,70 @@ img { /*Temporary Size */
     background-color: #FCDAB8;
     width: 55%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.25em;
+}
+
+.top_rectangle {
+    background-color: #EFFAFC;
+    width: 70%;
+    height: 5%;
+    border-radius: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle_rectangle {
+    background-color: #EFFAFC;
+    width: 70%;
+    height: 45%;
+    border-radius: 1.25em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0.937em;
+}
+
+.substrate {
+    background-color: #FCDAB8;
+    width: 65%;
+    height: 3%;
+    border-radius: 0 0 16px 16px;
+    margin-top: -2.81em;
+}
+
+.highlight {
+    background-color: #FFFFFF;
+    width: 92%;
+    height: 10%;
+    border-radius: 1.25em;
+}
+
+.top_rectangle .bottom {
+    width: 70%;
+    margin-top: 0.5em;
+}
+
+.side_highlight {
+    background-color: #FFFFFF;
+    width: 3%;
+    height: 10%;
+    border-radius: 0.937em;
+}
+
+.middle_rectangle .lower {
+    height: 20%;
+    margin-top: 0.625em;
+}
+
+.bottom_rectangle {
+    background-color: #DAD9A5;
+    width: 55%;
+    height: 3%;
+    margin-top: 14px;
 }
