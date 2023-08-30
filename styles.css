@@ -26,7 +26,7 @@ img { /*Temporary Size */
 .plant_side {
     background-color: #FFC15C;
     width: 45%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 1.25em;
 }
 
@@ -78,12 +78,11 @@ img { /*Temporary Size */
 .jar_side {
     background-color: #FCDAB8;
     width: 55%;
-    height: auto;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 1.25em;
 }
 
 .top_rectangle {
@@ -145,4 +144,10 @@ img { /*Temporary Size */
     width: 55%;
     height: 3%;
     margin-top: 14px;
+}
+
+.shelf {
+    background-color: #6C776B;
+    width: 100%;
+    height: 5%;
 }
