@@ -14,15 +14,22 @@ body {
 }
 
 /* Right Side Itmes */
-img { /*Temporary Size */
-    width: 9.5em;
-    height: 9.5em;
-}
+/* Plants */
 
 .content {
     display: flex;
 }
+.plant {
+    position: absolute;
+    max-width: 9.5em;
+    max-height: 9.5em;
+   
+}
 
+.plant_container {
+    height: 9.5em;
+    width: 9.5em;
+}
 .plant_side {
     background-color: #FFC15C;
     width: 45%;
@@ -31,9 +38,12 @@ img { /*Temporary Size */
 }
 
 .plants_group {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(5,1fr);
 }
+
+/* Title */
 
 .title_container {
     display: flex;
