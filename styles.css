@@ -187,3 +187,47 @@ body {
     }
    
 }
+
+/* Desktop and Larger Screens */
+
+@media only screen and (min-width: 961px) {
+    .content {
+        display: flex;
+    }
+    .plant_side {
+        width: 45%;
+        height: 100vh;
+    }
+    .jar_side {
+        width: 55%;
+        height: 100vh;
+    }
+    .plant {
+        max-width: 9.5em;
+        max-height: 9.5em;
+    }
+    .plant_container {
+        width: 9.5em;
+        height: 9.5em;
+    }
+    .plants_group {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .middle_rectangle {
+        height: 45%;
+    }
+    .substrate {
+        width: 65%;
+        height: 3%;
+        margin-top: -2.81em;
+    }
+    .bottom_rectangle {
+        width: 55%;
+        height: 3%;
+        margin-top: 14px;
+    }
+}
