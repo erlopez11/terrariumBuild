@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter&display=swap');
 
+/* Styling Starting with Mobile */
 /*  Basic Styling */
 * {
     margin: 0;
@@ -17,30 +18,31 @@ body {
 /* Plants */
 
 .content {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 .plant {
     position: absolute;
-    max-width: 9.5em;
-    max-height: 9.5em;
+    max-width: 3.12em;
+    max-height: 3.12em;
    
 }
 
 .plant_container {
-    height: 9.5em;
-    width: 9.5em;
+    height: 3.12em;
+    width: 3.12em;
 }
 .plant_side {
     background-color: #FFC15C;
-    width: 45%;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 40vh;
     padding: 1.25em;
 }
 
 .plants_group {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
 }
 
 /* Title */
@@ -55,7 +57,7 @@ body {
 
 
 .title {
-    font-size: 2.5em;
+    font-size: 1.25em;
     color: #6C776B;
     font-family: 'Courgette', sans-serif;
     text-align: center;
@@ -87,8 +89,9 @@ body {
 
 .jar_side {
     background-color: #FCDAB8;
-    width: 55%;
-    min-height: 100vh;
+    width: 100%;
+    min-height: 60vh;
+    padding: 1.25em;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -109,7 +112,7 @@ body {
 .middle_rectangle {
     background-color: #EFFAFC;
     width: 70%;
-    height: 45%;
+    height: 80%;
     border-radius: 1.25em;
     display: flex;
     flex-direction: column;
@@ -119,10 +122,10 @@ body {
 
 .substrate {
     background-color: #FCDAB8;
-    width: 65%;
+    width: 60%;
     height: 3%;
     border-radius: 0 0 16px 16px;
-    margin-top: -2.81em;
+    margin-top: -20px;
 }
 
 .highlight {
@@ -153,7 +156,7 @@ body {
     background-color: #DAD9A5;
     width: 55%;
     height: 3%;
-    margin-top: 14px;
+   margin-top: 9px;
 }
 
 .shelf {
